@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "esbenp.prettier-vscode",
+        "github.copilot",
+        "github.copilot-chat",
+        "qinjia.seti-icons",
+        "wix.vscode-import-cost"
+    ]
+}

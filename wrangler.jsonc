@@ -1,0 +1,36 @@
+{
+    // Cloudflare Worker configuration for healthcheck scheduler
+    "name": "healthchecks",
+    "main": "src/index.js",
+    "compatibility_date": "2025-11-21",
+
+    "triggers": {
+        "crons": ["* * * * *"]
+    },
+
+    "assets": {
+        "directory": "public",
+        "binding": "ASSETS"
+    },
+
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_name": "healthcheck",
+            "database_id": "555f8756-31e3-469f-b030-7e72f63863d0"
+        }
+    ],
+    "secrets_store_secrets": [
+        {
+            "binding": "SENDGRID_API_KEY",
+            "store_id": "<YOUR_SECRETS_STORE_ID>",
+            "secret_name": "SENDGRID_API_KEY"
+        }
+    ],
+    "observability": {
+        "enabled": true
+    },
+    "placement": {
+        "mode": "smart"
+    }
+}

@@ -1,0 +1,20 @@
+## Changelog Guidelines
+
+When completing coding tasks or making significant changes:
+
+1. Create detailed summary in .github/changelog/ with format: yyyy-mm-dd-hhmm-brief-description.md
+
+   Required Content:
+   - Changes Made (files created/modified/deleted)
+   - Implementation approach and details
+   - Key decisions and architectural choices
+   - Testing notes and validation
+   - Related documentation updates
+
+2. Update .github/changelog/CHANGELOG.md by adding entry at top:
+   - Date and descriptive title
+   - One paragraph summary of changes
+   - Reference to detailed summary file
+   - Keep reverse chronological order (latest first)
+
+This maintains both detailed work logs and a high-level changelog for quick reference.

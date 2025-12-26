@@ -1,0 +1,19 @@
+{
+    "files.autoSave": "afterDelay",
+    "search.showLineNumbers": true,
+    "search.smartCase": true,
+    "search.useGlobalIgnoreFiles": true,
+    "window.title": "${rootName}${separator}${activeEditorMedium}",
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": false,
+    "prettier.bracketSameLine": true,
+    "prettier.printWidth": 120,
+    "prettier.semi": true,
+    "prettier.trailingComma": "es5",
+    "prettier.quoteProps": "preserve",
+    "prettier.useTabs": false,
+    "npm-intellisense.importES6": true,
+    "npm-intellisense.importQuotes": "\"",
+    "path-intellisense.autoSlashAfterDirectory": true
+}
